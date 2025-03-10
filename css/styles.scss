@@ -4,17 +4,63 @@
 // 2. Include any default variable overrides here
 $link-decoration: none;
 
+
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/variables-dark";
 
 // 4. Include any default map overrides here
 $custom-colors: (
-	"farve": $cyan-400,
+	"dark-gray": #1C1C1C,
+	"light-gray": #999EA6,
+	"orange": #FA4516,
 );
+
+
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+
+/* Full-Screen Dropdown Styling */
+
+.font-overtext{
+	font-family: "TT Supermolot Neue Trl Ext ExBd", serif;
+}
+
+.font-text{
+	font-family: "Yu Gothic UI", serif;
+}
+
+.navbar-fontsize-mobil{
+	font-size: 10px;
+}
+
+@media only screen and (min-width: 768px){
+	.navbar-fontsize{
+		font-size: 12px;
+	}
+
+
+}
+
+@media only screen and (min-width: 1024px){
+	.navbar-fontsize{
+		font-size: 15px;
+	}
+}
+
+@media only screen and (min-width: 1440px){
+	.navbar-fontsize{
+		font-size: 19px;
+	}
+}
+
+@media only screen and (min-width: 2560px){
+	.navbar-fontsize{
+		font-size: 39px;
+	}
+
+}
