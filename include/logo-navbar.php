@@ -15,7 +15,7 @@
                 <a class="nav-link text-white navbar-fontsize-mobil" href="/event.php">EVENT</a>
             </div>
             <div class="nav-item">
-                <a class="nav-link text-white navbar-fontsize-mobil" href="#">SIGN UP</a>
+                <a class="nav-link text-white navbar-fontsize-mobil" href="/fighter-sign-up.php">SIGN UP</a>
             </div>
             <div class="nav-item">
                 <a class="nav-link text-white navbar-fontsize-mobil" href="#">LIVE TV <i

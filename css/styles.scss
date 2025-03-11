@@ -136,6 +136,47 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-size: 6px;
 }
 
+#apply-for-our-fighter-roster-header{
+	font-size: 8px;
+}
+
+.apply-for-our-fighter-roster-text{
+	font-size: 5px;
+}
+
+::placeholder {
+	color: white !important;
+	opacity: 1;
+}
+
+#become-a-dominance-fc-fighter-header{
+	font-size: 10px;
+}
+
+#become-a-dominance-fc-fighter-text{
+	font-size: 8px;
+}
+
+.fighter-sign-up-input-fields{
+	font-size: 5px;
+}
+
+#do-you-allow{
+	font-size: 5px;
+}
+
+.yes-no-permission{
+	font-size: 7px;
+}
+
+.fa-circle{
+	font-size: 7px;
+}
+
+#submit-me-as-a-fighter-button{
+	font-size: 7px;
+}
+
 @media only screen and (min-width: 375px){
 
 	.live-card-text{
