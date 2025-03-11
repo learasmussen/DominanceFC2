@@ -1,4 +1,4 @@
-<!--logo-->
+<!-- Logo -->
 <div class="container logo p-2 m-md-0">
     <div class="row">
         <div>
@@ -7,9 +7,9 @@
     </div>
 </div>
 
-<!-- Navbar mobil -->
+<!-- Navbar mobile -->
 <div class="d-md-none">
-    <nav class="navbar container bg-black">
+    <nav class="navbar container- bg-black m-0">
         <div class="navbar-nav d-flex flex-row justify-content-evenly w-100">
             <div class="nav-item">
                 <a class="nav-link text-white navbar-fontsize-mobil" href="#">EVENT</a>
@@ -18,13 +18,15 @@
                 <a class="nav-link text-white navbar-fontsize-mobil" href="#">SIGN UP</a>
             </div>
             <div class="nav-item">
-                <a class="nav-link text-white navbar-fontsize-mobil" href="#">LIVE TV <i class="fa-solid fa-circle text-orange "></i></a>
+                <a class="nav-link text-white navbar-fontsize-mobil" href="#">LIVE TV <i
+                            class="fa-solid fa-circle text-orange "></i></a>
             </div>
             <div class="nav-item">
                 <a class="nav-link text-white navbar-fontsize-mobil" href="#">MERCH</a>
             </div>
             <div class="nav-item">
-                <a class="nav-link text-white navbar-fontsize-mobil" href="#" id="otherDropdown">OTHER  <i class="fa-solid fa-angle-down"></i></a>
+                <a class="nav-link text-white navbar-fontsize-mobil" href="#" id="otherDropdown">OTHER <i
+                            class="fa-solid fa-angle-down"></i></a>
             </div>
         </div>
     </nav>
@@ -32,9 +34,11 @@
     <nav>
         <div>
             <!-- Full-Screen Dropdown -->
-            <div id="fullScreenDropdown" class="position-fixed top-0 start-0 w-100 h-100 bg-dark d-none justify-content-center align-items-center text-white z-3">
+            <div id="fullScreenDropdown"
+                 class="position-fixed top-0 start-0 w-100 h-100 bg-dark d-none justify-content-center align-items-center text-white z-3">
                 <!-- Close Button -->
-                <button class="position-absolute top-0 end-0 mt-3 me-4 border-0 bg-transparent text-orange fs-1 fw-bold" id="closeDropdown">
+                <button class="position-absolute top-0 end-0 mt-3 me-4 border-0 bg-transparent text-orange fs-1 fw-bold"
+                        id="closeDropdown">
                     <i class="fa-solid fa-x text-orange"></i>
                 </button>
 
@@ -52,7 +56,7 @@
     </nav>
 </div>
 
-<!-- Navbar-->
+<!-- Navbar -->
 <nav class="navbar container-fluid bg-black d-none d-md-block">
     <div class="navbar-nav d-flex flex-row justify-content-evenly w-100">
         <div class="nav-item">
@@ -74,7 +78,8 @@
             <a class="nav-link text-white navbar-fontsize" href="#">MERCH</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link text-white navbar-fontsize" href="#">LIVE TV <i class="fa-solid fa-circle text-orange "></i></a>
+            <a class="nav-link text-white navbar-fontsize" href="#">LIVE TV <i
+                        class="fa-solid fa-circle text-orange "></i></a>
         </div>
         <div class="nav-item">
             <a class="nav-link text-white navbar-fontsize" href="#">CONTACT</a>

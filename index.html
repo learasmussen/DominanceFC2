@@ -15,7 +15,7 @@
 </head>
 <body>
 
-<!--logo-->
+<!-- Logo -->
 <div class="container logo p-2 m-md-0">
     <div class="row">
         <div>
@@ -24,52 +24,56 @@
     </div>
 </div>
 
-<!-- Navbar mobil -->
+<!-- Navbar mobile -->
 <div class="d-md-none">
-<nav class="navbar container bg-black">
-    <div class="navbar-nav d-flex flex-row justify-content-evenly w-100">
-        <div class="nav-item">
-            <a class="nav-link text-white navbar-fontsize-mobil" href="#">EVENT</a>
+    <nav class="navbar container- bg-black m-0">
+        <div class="navbar-nav d-flex flex-row justify-content-evenly w-100">
+            <div class="nav-item">
+                <a class="nav-link text-white navbar-fontsize-mobil" href="#">EVENT</a>
+            </div>
+            <div class="nav-item">
+                <a class="nav-link text-white navbar-fontsize-mobil" href="#">SIGN UP</a>
+            </div>
+            <div class="nav-item">
+                <a class="nav-link text-white navbar-fontsize-mobil" href="#">LIVE TV <i
+                        class="fa-solid fa-circle text-orange "></i></a>
+            </div>
+            <div class="nav-item">
+                <a class="nav-link text-white navbar-fontsize-mobil" href="#">MERCH</a>
+            </div>
+            <div class="nav-item">
+                <a class="nav-link text-white navbar-fontsize-mobil" href="#" id="otherDropdown">OTHER <i
+                        class="fa-solid fa-angle-down"></i></a>
+            </div>
         </div>
-        <div class="nav-item">
-            <a class="nav-link text-white navbar-fontsize-mobil" href="#">SIGN UP</a>
-        </div>
-        <div class="nav-item">
-            <a class="nav-link text-white navbar-fontsize-mobil" href="#">LIVE TV <i class="fa-solid fa-circle text-orange "></i></a>
-        </div>
-        <div class="nav-item">
-            <a class="nav-link text-white navbar-fontsize-mobil" href="#">MERCH</a>
-        </div>
-        <div class="nav-item">
-            <a class="nav-link text-white navbar-fontsize-mobil" href="#" id="otherDropdown">OTHER  <i class="fa-solid fa-angle-down"></i></a>
-        </div>
-    </div>
-</nav>
+    </nav>
 
-<nav>
-    <div>
-        <!-- Full-Screen Dropdown -->
-        <div id="fullScreenDropdown" class="position-fixed top-0 start-0 w-100 h-100 bg-dark d-none justify-content-center align-items-center text-white z-3">
-            <!-- Close Button -->
-            <button class="position-absolute top-0 end-0 mt-3 me-4 border-0 bg-transparent text-orange fs-1 fw-bold" id="closeDropdown">
-                <i class="fa-solid fa-x text-orange"></i>
-            </button>
+    <nav>
+        <div>
+            <!-- Full-Screen Dropdown -->
+            <div id="fullScreenDropdown"
+                 class="position-fixed top-0 start-0 w-100 h-100 bg-dark d-none justify-content-center align-items-center text-white z-3">
+                <!-- Close Button -->
+                <button class="position-absolute top-0 end-0 mt-3 me-4 border-0 bg-transparent text-orange fs-1 fw-bold"
+                        id="closeDropdown">
+                    <i class="fa-solid fa-x text-orange"></i>
+                </button>
 
-            <!-- Menu Items -->
-            <div class="text-center">
-                <div class="d-flex flex-column gap-3 fs-3 fw-bold text-uppercase mt-n3">
-                    <a href="sponsors.html" class="text-white text-decoration-none">SPONSORS</a>
-                    <a href="partners.html" class="text-white text-decoration-none">PARTNERS</a>
-                    <a href="about.html" class="text-white text-decoration-none">ABOUT</a>
-                    <a href="contact.html" class="text-white text-decoration-none">CONTACT</a>
+                <!-- Menu Items -->
+                <div class="text-center">
+                    <div class="d-flex flex-column gap-3 fs-3 fw-bold text-uppercase mt-n3">
+                        <a href="sponsors.html" class="text-white text-decoration-none">SPONSORS</a>
+                        <a href="partners.html" class="text-white text-decoration-none">PARTNERS</a>
+                        <a href="about.html" class="text-white text-decoration-none">ABOUT</a>
+                        <a href="contact.html" class="text-white text-decoration-none">CONTACT</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</nav>
+    </nav>
 </div>
 
-<!-- Navbar-->
+<!-- Navbar -->
 <nav class="navbar container-fluid bg-black d-none d-md-block">
     <div class="navbar-nav d-flex flex-row justify-content-evenly w-100">
         <div class="nav-item">
@@ -91,13 +95,149 @@
             <a class="nav-link text-white navbar-fontsize" href="#">MERCH</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link text-white navbar-fontsize" href="#">LIVE TV <i class="fa-solid fa-circle text-orange "></i></a>
+            <a class="nav-link text-white navbar-fontsize" href="#">LIVE TV <i
+                    class="fa-solid fa-circle text-orange "></i></a>
         </div>
         <div class="nav-item">
             <a class="nav-link text-white navbar-fontsize" href="#">CONTACT</a>
         </div>
     </div>
 </nav>
+
+<!-- Top image -->
+<div class="container-fluid p-0 m-0">
+    <img src="images/front-page-header.jpg" alt="front-page-header-image" class="img-fluid">
+</div>
+
+<!-- Upcoming event card -->
+<div class="container">
+    <div class="row d-flex justify-content-center">
+        <div class="col-12">
+            <div class="container bg-dark-gray text-white">
+                <div class="row align-items-center">
+                    <!-- Title section -->
+                    <div>
+                        <h2 class="text-uppercase fw-bold text-orange mb-1 mt-2 mb-md-2 mb-lg-3 ms-lg-2 mt-lg-3" id="upcoming-events-header">Upcoming
+                            Events</h2>
+                        <p class="fw-bold fst-italic event-card-big-text mb-1 mb-md-2 mb-lg-3 ms-lg-2">DOMINANCE FC 03: MMA IN K.B. HALLEN,
+                            COPENHAGEN</p>
+                        <p class="fw-bold text-light-gray event-card-big-text mb-1 text-uppercase mb-md-2 mb-lg-3 ms-lg-2">26/04/2025 – K.B.
+                            Hallen, Copenhagen</p>
+                        <div class="d-flex flex-row">
+
+                            <!-- Text section -->
+                            <div>
+                                <p class="event-card-text mb-1 mb-md-2 mb-lg-3 ms-lg-2">
+                                    Expect fierce battles in the octagon, featuring both emerging local fighters and
+                                    international MMA stars.
+                                    DOMINANCE FC 3.0 promises to deliver high-stakes competition and a unique atmosphere
+                                    you won’t want to miss!
+                                </p>
+                                <p class="fw-bold event-card-text mb-1 mb-md-2 mb-lg-3 ms-lg-2">Secure your tickets and be part of the next
+                                    chapter in European MMA history!</p>
+                                <p class="text-white event-card-text ms-lg-2 mb-lg-3">Tickets are available now!</p>
+                            </div>
+
+                            <!-- Button Section -->
+                            <div class="col-md-4 text-md-end text-center d-flex align-items-center justify-content-end ps-3 me-md-5">
+                                <a href="#"
+                                   class="btn btn-orange rounded-0 text-uppercase text-white fw-bold px-3 py-2 m-0 px-md-4 py-md-3 px-lg-5 py-lg-4"
+                                   id="buy-tickets-text">Buy Tickets</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Watch live card-->
+<div class="container-fluid bg-dark-gray mt-3 mb-3 d-md-none">
+    <div class="row mb-3">
+        <div class="col-12 text-orange fw-bold text-center" id="watch-live-header">
+            WATCH LIVE
+        </div>
+        <div class="col-12 text-white fw-bold text-center mb-lg-4" id="watch-live-underheader">
+            AIRTOX DOMINANCE FIGHTING CHAMPIONSHIP 3.0
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-6 pe-1 mb-3 pe-md-2 ps-lg-5 pe-lg-3 mb-lg-4">
+
+            <img src="images/live-card-image.png" alt="livecardimage" class="col-12">
+
+        </div>
+        <div class="col-6 ps-1 ps-md-2 pe-lg-5 ps-lg-3">
+
+            <div class="text-white live-card-text mb-1 mb-md-3">WATCH THE FIGHTERS LIVE HERE ON APRIL 26</div>
+            <div class="text-white live-card-text mb-1 mb-md-3">OR BUY A TICKET FOR THE MAIN EVENT ON APRIL 26</div>
+            <p class="text-light-gray mb-1 mb-md-2 mb-lg-4" id="live-card-pluto-tv">THE LIVE TV IS DELIVERD TO YOU BY PLUTO TV</p>
+
+            <!-- Button Section -->
+            <div class="col-md-4 text-md-end text-center d-flex align-items-center justify-content-start">
+                <a href="#"
+                   class="btn btn-orange rounded-0 text-uppercase text-white fw-bold px-2 py-1 m-0 px-md-4 py-md-3 px-lg-5 py-lg-4"
+                   id="watch-live-text">WATCH LIVE</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Apply for our roster-->
+<div class="container px-1 mb-3 mt-md-3">
+    <div class="row mx-2 ">
+        <div class="col-7 ps-0 pe-2 pe-md-3">
+
+            <img src="images/apply-for-our-roster-image.jpg" alt="apply-for-our-roster-image" class="col-12">
+
+        </div>
+        <div class="col-5 bg-dark-gray">
+
+            <div class="text-orange fw-bold mt-2" id="apply-for-our-roster-header">APPLY FOR OUR FIGHTER ROSTER</div>
+            <p class="apply-for-our-roster-text text-white mb-1 mb-md-2">We are always looking for new and exciting athletes to join our ranks at Dominance FC!</p>
+            <p class="apply-for-our-roster-text text-white mb-1 mb-md-3 mb-lg-5">Do you have what it takes to perform at the top level, and compete with some of the best and most prominent fighters in the world?</p>
+
+            <!-- Button Section -->
+            <div class="col-md-4 text-md-end text-center d-flex align-items-center justify-content-start">
+                <a href="#"
+                   class="btn btn-orange rounded-0 text-uppercase text-white fw-bold px-2 py-1 m-0 mb-2 px-md-4 py-md-3 px-lg-5 py-lg-4"
+                   id="sign-up-text">SIGN UP</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Merch card-->
+<div class="container px-1 mb-3 d-md-none">
+    <div class="row mx-2 ">
+
+        <div class="col-7 bg-dark-gray">
+
+            <div class="text-orange fw-bold mt-2" id="merch-header">MERCH</div>
+            <p class="merch-text text-white mb-1">VIEW OUR NEW COLLECTION OF MMA INSPIRED MERCHANDICE SUCH AS T-SHIRTS</p>
+            <p class="merch-text text-white mb-1">FURTHERMORE WE ALSO OFFER MMA TRAINING EQUIPMENT SUCH AS GLOVES AND BOXING PADS </p>
+
+            <!-- Button Section -->
+            <div class="col-md-4 text-md-end text-center d-flex align-items-center justify-content-start">
+                <a href="#"
+                   class="btn btn-orange rounded-0 text-uppercase text-white fw-bold px-2 py-1 m-0 mb-2 px-md-4 py-md-3 px-lg-5 py-lg-4"
+                   id="view-our-merch-text">VIEW OUR MERCH</a>
+            </div>
+
+        </div>
+
+        <div class="col-5 ps-2 pe-0 ">
+
+            <img src="images/WHITE%20TSHIRT-PNG.png" alt="white-t-shirt-image" class="col-12">
+
+        </div>
+
+    </div>
+</div>
 
 <script src="navbar.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

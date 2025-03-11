@@ -38,23 +38,426 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-size: 10px;
 }
 
+#upcoming-events-header{
+	font-size: 17px;
+}
+
+.event-card-big-text{
+	font-size: 10px;
+}
+
+.event-card-text{
+	font-size: 7px;
+}
+
+#buy-tickets-text{
+	font-size: 10px;
+	white-space: nowrap;
+}
+
+#watch-live-header{
+	font-size: 25px;
+}
+
+#watch-live-underheader{
+	font-size: 10px;
+}
+
+.live-card-text{
+	font-size: 9px;
+}
+
+#live-card-pluto-tv{
+	font-size: 7px;
+}
+
+#watch-live-text{
+	font-size: 10px;
+}
+
+#apply-for-our-roster-header{
+	font-size: 7px;
+}
+
+.apply-for-our-roster-text{
+	font-size: 5px;
+}
+
+#sign-up-text{
+	font-size: 7px;
+}
+
+#merch-header{
+	font-size: 15px;
+}
+
+.merch-text{
+	font-size: 7px;
+}
+
+#view-our-merch-text{
+	font-size: 10px;
+}
+
+#sign-up-for-newsletter-header{
+	font-size: 10px;
+}
+
+.footer-headers{
+	font-size: 6px;
+}
+
+.footer-text{
+	font-size: 5px;
+}
+
+.email-subscribe{
+	font-size: 5px;
+}
+
+#what-is-dominance-fc-header{
+	font-size: 10px;
+}
+
+.what-is-dominance-fc-text{
+	font-size: 6px;
+}
+
+.mark-o-madsen-ceo{
+	font-size: 7px;
+	white-space: nowrap;
+}
+
+#apostrophie{
+	font-size: 30px;
+}
+
+@media only screen and (min-width: 375px){
+
+	.live-card-text{
+		font-size: 11px;
+	}
+
+	#live-card-pluto-tv{
+		font-size: 10px;
+	}
+
+	#watch-live-text{
+		font-size: 12px;
+	}
+
+	#apply-for-our-roster-header{
+		font-size: 10px;
+	}
+
+	.apply-for-our-roster-text{
+		font-size: 6px;
+
+	}
+
+	#sign-up-text{
+		font-size: 10px;
+	}
+
+	#what-is-dominance-fc-header{
+		font-size: 15px;
+	}
+
+	.what-is-dominance-fc-text{
+		font-size: 7px;
+	}
+
+	.mark-o-madsen-ceo{
+		font-size: 9px;
+		white-space: nowrap;
+	}
+
+	#apostrophie{
+		font-size: 40px;
+	}
+
+}
+
+@media only screen and (min-width: 425px){
+
+	.live-card-text{
+		font-size: 13px;
+	}
+
+	#live-card-pluto-tv{
+		font-size: 12px;
+	}
+
+	#watch-live-text{
+		font-size: 14px;
+	}
+
+	#apply-for-our-roster-header{
+		font-size: 12px;
+	}
+
+	.apply-for-our-roster-text{
+		font-size: 7px;
+
+	}
+
+	#sign-up-text{
+		font-size: 12px;
+	}
+
+	#what-is-dominance-fc-header{
+		font-size: 17px;
+	}
+
+	.what-is-dominance-fc-text{
+		font-size: 8px;
+	}
+
+	.mark-o-madsen-ceo{
+		font-size: 10px;
+		white-space: nowrap;
+	}
+
+	#apostrophie{
+		font-size: 40px;
+	}
+}
+
 @media only screen and (min-width: 768px){
 	.navbar-fontsize{
 		font-size: 12px;
 	}
 
+	#upcoming-events-header{
+		font-size: 28px;
+	}
 
+	.event-card-big-text{
+		font-size: 15px;
+	}
+
+	.event-card-text{
+		font-size: 13px;
+	}
+
+	#buy-tickets-text{
+		font-size: 18px;
+	}
+
+	#watch-live-header{
+		font-size: 40px;
+	}
+
+	#watch-live-underheader{
+		font-size: 25px;
+	}
+
+	.live-card-text{
+		font-size: 20px;
+	}
+
+	#live-card-pluto-tv{
+		font-size: 18px;
+	}
+
+	#watch-live-text{
+		font-size: 25px;
+		white-space: nowrap;
+	}
+
+	#apply-for-our-roster-header{
+		font-size: 20px;
+	}
+
+	.apply-for-our-roster-text{
+		font-size: 13px;
+
+	}
+
+	#sign-up-text{
+		font-size: 15px;
+		white-space: nowrap;
+	}
+
+	#sign-up-for-newsletter-header{
+		font-size: 15px;
+	}
+
+	.footer-headers{
+		font-size: 13px;
+	}
+
+	.footer-text{
+		font-size: 11px;
+	}
+
+	.email-subscribe{
+		font-size: 10px;
+	}
+
+	#what-is-dominance-fc-header{
+		font-size: 22px;
+	}
+
+	.what-is-dominance-fc-text{
+		font-size: 14px;
+	}
+
+	.mark-o-madsen-ceo{
+		font-size: 15px;
+		white-space: nowrap;
+	}
+
+	#apostrophie{
+		font-size: 50px;
+	}
 }
 
 @media only screen and (min-width: 1024px){
 	.navbar-fontsize{
 		font-size: 15px;
 	}
+
+	#watch-live-header{
+		font-size: 50px;
+	}
+
+	#watch-live-underheader{
+		font-size: 35px;
+	}
+
+	.live-card-text{
+		font-size: 28px;
+	}
+
+	#live-card-pluto-tv{
+		font-size: 25px;
+	}
+
+	#watch-live-text{
+		font-size: 25px;
+		white-space: nowrap;
+	}
+
+	#apply-for-our-roster-header{
+		font-size: 30px;
+	}
+
+	.apply-for-our-roster-text{
+		font-size: 18px;
+
+	}
+
+	#sign-up-text{
+		font-size: 25px;
+		white-space: nowrap;
+	}
+
+	#what-is-dominance-fc-header{
+		font-size: 30px;
+	}
+
+	.what-is-dominance-fc-text{
+		font-size: 20px;
+	}
+
+	.mark-o-madsen-ceo{
+		font-size: 20px;
+		white-space: nowrap;
+	}
+
+	#apostrophie{
+		font-size: 60px;
+	}
 }
 
 @media only screen and (min-width: 1440px){
 	.navbar-fontsize{
 		font-size: 19px;
+	}
+
+	#upcoming-events-header{
+		font-size: 40px;
+	}
+
+	.event-card-big-text{
+		font-size: 25px;
+	}
+
+	.event-card-text{
+		font-size: 22px;
+	}
+
+	#buy-tickets-text{
+		font-size: 25px;
+	}
+
+	#watch-live-header{
+		font-size: 60px;
+	}
+
+	#watch-live-underheader{
+		font-size: 50px;
+	}
+
+	.live-card-text{
+		font-size: 38px;
+	}
+
+	#live-card-pluto-tv{
+		font-size: 35px;
+	}
+
+	#watch-live-text{
+		font-size: 45px;
+		white-space: nowrap;
+	}
+
+	#apply-for-our-roster-header{
+		font-size: 40px;
+	}
+
+	.apply-for-our-roster-text{
+		font-size: 25px;
+
+	}
+
+	#sign-up-text{
+		font-size: 35px;
+		white-space: nowrap;
+	}
+
+	#sign-up-for-newsletter-header{
+		font-size: 25px;
+	}
+
+	.footer-headers{
+		font-size: 23px;
+	}
+
+	.footer-text{
+		font-size: 21px;
+	}
+
+	.email-subscribe{
+		font-size: 20px;
+	}
+
+	#what-is-dominance-fc-header{
+		font-size: 40px;
+	}
+
+	.what-is-dominance-fc-text{
+		font-size: 28px;
+	}
+
+	.mark-o-madsen-ceo{
+		font-size: 30px;
+		white-space: nowrap;
+	}
+
+	#apostrophie{
+		font-size: 80px;
 	}
 }
 
