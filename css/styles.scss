@@ -132,6 +132,10 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-size: 30px;
 }
 
+.event-cards-information-text{
+	font-size: 6px;
+}
+
 @media only screen and (min-width: 375px){
 
 	.live-card-text{
@@ -174,6 +178,18 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 	#apostrophie{
 		font-size: 40px;
+	}
+
+	#merch-header{
+		font-size: 18px;
+	}
+
+	.merch-text{
+		font-size: 10px;
+	}
+
+	#view-our-merch-text{
+		font-size: 10px;
 	}
 
 }
@@ -221,6 +237,23 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	#apostrophie{
 		font-size: 40px;
 	}
+
+	#merch-header{
+		font-size: 22px;
+	}
+
+	.merch-text{
+		font-size: 12px;
+	}
+
+	#view-our-merch-text{
+		font-size: 10px;
+	}
+
+	.event-cards-information-text{
+		font-size: 8px;
+	}
+
 }
 
 @media only screen and (min-width: 768px){
@@ -311,6 +344,10 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	#apostrophie{
 		font-size: 50px;
 	}
+
+	.event-cards-information-text{
+		font-size: 12px;
+	}
 }
 
 @media only screen and (min-width: 1024px){
@@ -368,6 +405,10 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 	#apostrophie{
 		font-size: 60px;
+	}
+
+	.event-cards-information-text{
+		font-size: 16px;
 	}
 }
 
@@ -458,6 +499,10 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 	#apostrophie{
 		font-size: 80px;
+	}
+
+	.event-cards-information-text{
+		font-size: 23px;
 	}
 }
 

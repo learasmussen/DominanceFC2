@@ -2,7 +2,7 @@
 <div class="container logo p-2 m-md-0">
     <div class="row">
         <div>
-            <img src="images/long-logo.png" alt="long-logo" class="col-4 col-md-2">
+            <a href="/index.php"><img src="images/long-logo.png" alt="long-logo" class="col-4 col-md-2"></a>
         </div>
     </div>
 </div>
@@ -12,7 +12,7 @@
     <nav class="navbar container- bg-black m-0">
         <div class="navbar-nav d-flex flex-row justify-content-evenly w-100">
             <div class="nav-item">
-                <a class="nav-link text-white navbar-fontsize-mobil" href="">EVENT</a>
+                <a class="nav-link text-white navbar-fontsize-mobil" href="/event.php">EVENT</a>
             </div>
             <div class="nav-item">
                 <a class="nav-link text-white navbar-fontsize-mobil" href="#">SIGN UP</a>

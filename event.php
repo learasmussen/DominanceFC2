@@ -25,7 +25,7 @@ require "settings/init.php";
 <?php include("include/logo-navbar.php") ?>
 
 <!-- Upcoming event card -->
-<div class="container">
+<div class="container my-3 my-md-4 my-lg-5">
     <div class="row d-flex justify-content-center">
         <div class="col-12">
             <div class="container bg-dark-gray text-white">
@@ -63,6 +63,17 @@ require "settings/init.php";
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+
+<!-- Events April-February-->
+<div class="container-fluid bg-dark-gray mb-3 mb-lg-5">
+    <div class="row">
+        <div class="col-12 text-white event-cards-information-text text-center my-3 my-lg-5 fw-bold px-4 px-lg-5">Expect fierce battles in the octagon, featuring both emerging local fighters and international MMA stars. DOMIINANCE FC promises to deliver high-stakes competition and a unique atmosphere you won’t want to miss! </div>
+        <div class="col-12 text-white event-cards-information-text text-center mb-3 mb-lg-5 fw-bold px-4 px-lg-5">Witness the rise of Europe's premier MMA promotion and be part of an unforgettable night of high-octane fights, featuring upcoming MMA talent ready to showcase their skills and dominate the cage. Secure Your Spot and Witness the Rise of DFC. Tickets are available Now!</div>
+        <div class="col-12 mb-3">
+            <img src="images/events-cards-with%20information.png" alt="event-cards-information" class="col-12">
         </div>
     </div>
 </div>
