@@ -34,10 +34,13 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-family: "Yu Gothic UI", serif;
 }
 
+/* Navbar */
 .navbar-fontsize-mobil{
 	font-size: 10px;
 }
 
+
+/* Event card */
 #upcoming-events-header{
 	font-size: 17px;
 }
@@ -55,6 +58,8 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	white-space: nowrap;
 }
 
+
+/* Watch live card */
 #watch-live-header{
 	font-size: 25px;
 }
@@ -75,6 +80,8 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-size: 10px;
 }
 
+
+/* Apply for our roster - front page */
 #apply-for-our-roster-header{
 	font-size: 7px;
 }
@@ -87,6 +94,8 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-size: 7px;
 }
 
+
+/* Merch info box - front page mobil */
 #merch-header{
 	font-size: 15px;
 }
@@ -99,6 +108,8 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-size: 10px;
 }
 
+
+/* Footer */
 #sign-up-for-newsletter-header{
 	font-size: 10px;
 }
@@ -115,6 +126,8 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-size: 5px;
 }
 
+
+/* What is dominance fc */
 #what-is-dominance-fc-header{
 	font-size: 10px;
 }
@@ -132,10 +145,14 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-size: 30px;
 }
 
+
+/* Event cards with information and pictures */
 .event-cards-information-text{
 	font-size: 6px;
 }
 
+
+/* Apply for our fighter roster - fighter sign up */
 #apply-for-our-fighter-roster-header{
 	font-size: 8px;
 }
@@ -144,6 +161,8 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-size: 5px;
 }
 
+
+/* Become a dominance fc fighter */
 ::placeholder {
 	color: white !important;
 	opacity: 1;
@@ -176,6 +195,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 #submit-me-as-a-fighter-button{
 	font-size: 7px;
 }
+
 
 @media only screen and (min-width: 375px){
 
@@ -232,6 +252,21 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	#view-our-merch-text{
 		font-size: 10px;
 	}
+
+	/* Apply for our fighter roster - fighter sign up */
+	#apply-for-our-fighter-roster-header{
+		font-size: 10px;
+	}
+
+	.apply-for-our-fighter-roster-text{
+		font-size: 6px;
+	}
+
+
+	#do-you-allow{
+		font-size: 5.5px;
+	}
+
 
 }
 
@@ -294,6 +329,20 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	.event-cards-information-text{
 		font-size: 8px;
 	}
+
+	#do-you-allow{
+		font-size: 6px;
+	}
+
+	/* Apply for our fighter roster - fighter sign up */
+	#apply-for-our-fighter-roster-header{
+		font-size: 10px;
+	}
+
+	.apply-for-our-fighter-roster-text{
+		font-size: 7px;
+	}
+
 
 }
 
@@ -389,6 +438,47 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	.event-cards-information-text{
 		font-size: 12px;
 	}
+
+	.top-image-text{
+		font-size: 35px;
+	}
+
+	/* Apply for our fighter roster - fighter sign up */
+	#apply-for-our-fighter-roster-header{
+		font-size: 20px;
+	}
+
+	.apply-for-our-fighter-roster-text{
+		font-size: 12.5px;
+	}
+
+	#become-a-dominance-fc-fighter-header{
+		font-size: 25px;
+	}
+
+	#become-a-dominance-fc-fighter-text{
+		font-size: 15px;
+	}
+
+	.fighter-sign-up-input-fields{
+		font-size: 10px;
+	}
+
+	#do-you-allow{
+		font-size: 11px;
+	}
+
+	.yes-no-permission{
+		font-size: 12px;
+	}
+
+	.fa-circle{
+		font-size: 12px;
+	}
+
+	#submit-me-as-a-fighter-button{
+		font-size: 12px;
+	}
 }
 
 @media only screen and (min-width: 1024px){
@@ -449,6 +539,47 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	}
 
 	.event-cards-information-text{
+		font-size: 16px;
+	}
+
+	.top-image-text{
+		font-size: 45px;
+	}
+
+	#become-a-dominance-fc-fighter-header{
+		font-size: 35px;
+	}
+
+	#become-a-dominance-fc-fighter-text{
+		font-size: 20px;
+	}
+
+	.fighter-sign-up-input-fields{
+		font-size: 15px;
+	}
+
+	#do-you-allow{
+		font-size: 13px;
+	}
+
+	.yes-no-permission{
+		font-size: 14px;
+	}
+
+	.fa-circle{
+		font-size: 14px;
+	}
+
+	#submit-me-as-a-fighter-button{
+		font-size: 17px;
+	}
+
+	/* Apply for our fighter roster - fighter sign up */
+	#apply-for-our-fighter-roster-header{
+		font-size: 25px;
+	}
+
+	.apply-for-our-fighter-roster-text{
 		font-size: 16px;
 	}
 }
@@ -544,6 +675,48 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 	.event-cards-information-text{
 		font-size: 23px;
+	}
+
+	.top-image-text{
+		font-size: 65px;
+	}
+
+	/* Apply for our fighter roster - fighter sign up */
+	#apply-for-our-fighter-roster-header{
+		font-size: 35px;
+	}
+
+	.apply-for-our-fighter-roster-text{
+		font-size: 22.5px;
+	}
+
+
+	#become-a-dominance-fc-fighter-header{
+		font-size: 40px;
+	}
+
+	#become-a-dominance-fc-fighter-text{
+		font-size: 25px;
+	}
+
+	.fighter-sign-up-input-fields{
+		font-size: 20px;
+	}
+
+	#do-you-allow{
+		font-size: 18px;
+	}
+
+	.yes-no-permission{
+		font-size: 19px;
+	}
+
+	.fa-circle{
+		font-size: 19px;
+	}
+
+	#submit-me-as-a-fighter-button{
+		font-size: 22px;
 	}
 }
 
