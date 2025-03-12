@@ -46,6 +46,10 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 
 /* Event card */
+#event-card-negative-margin{
+	margin-top: -50px;
+}
+
 #upcoming-events-header{
 	font-size: 17px;
 }
@@ -128,7 +132,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 
 .email-subscribe{
-	font-size: 5px;
+	font-size: 8px;
 }
 
 
@@ -356,6 +360,10 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 		font-size: 12px;
 	}
 
+	#event-card-negative-margin{
+		margin-top: -100px;
+	}
+
 	#upcoming-events-header{
 		font-size: 28px;
 	}
@@ -491,6 +499,10 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 		font-size: 15px;
 	}
 
+	#event-card-negative-margin{
+		margin-top: -150px;
+	}
+
 	#watch-live-header{
 		font-size: 50px;
 	}
@@ -587,11 +599,18 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	.apply-for-our-fighter-roster-text{
 		font-size: 16px;
 	}
+	.email-subscribe{
+		font-size: 15px;
+	}
 }
 
 @media only screen and (min-width: 1440px){
 	.navbar-fontsize{
 		font-size: 19px;
+	}
+
+	#event-card-negative-margin{
+		margin-top: -200px;
 	}
 
 	#upcoming-events-header{

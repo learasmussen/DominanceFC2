@@ -30,41 +30,37 @@ require "settings/init.php";
 </div>
 
 <!-- Upcoming event card -->
-<div class="container">
+<div class="container" id="event-card-negative-margin">
     <div class="row d-flex justify-content-center">
-        <div class="col-12">
-            <div class="container bg-dark-gray text-white">
-                <div class="row align-items-center">
-                    <!-- Title section -->
+        <div class="col-12 ">
+            <!-- Title section -->
+            <div class="bg-dark-gray text-white p-3">
+                <h2 class="text-uppercase fw-bold text-orange mb-1 mt-2 mb-md-2 mb-lg-3 ms-lg-2 mt-lg-3" id="upcoming-events-header">Upcoming
+                    Events</h2>
+                <p class="fw-bold fst-italic event-card-big-text mb-1 mb-md-2 mb-lg-3 ms-lg-2">DOMINANCE FC 03: MMA IN K.B. HALLEN,
+                    COPENHAGEN</p>
+                <p class="fw-bold text-light-gray event-card-big-text mb-1 text-uppercase mb-md-2 mb-lg-3 ms-lg-2">26/04/2025 – K.B.
+                    Hallen, Copenhagen</p>
+                <div class="d-flex flex-row">
+
+                    <!-- Text section -->
                     <div>
-                        <h2 class="text-uppercase fw-bold text-orange mb-1 mt-2 mb-md-2 mb-lg-3 ms-lg-2 mt-lg-3" id="upcoming-events-header">Upcoming
-                            Events</h2>
-                        <p class="fw-bold fst-italic event-card-big-text mb-1 mb-md-2 mb-lg-3 ms-lg-2">DOMINANCE FC 03: MMA IN K.B. HALLEN,
-                            COPENHAGEN</p>
-                        <p class="fw-bold text-light-gray event-card-big-text mb-1 text-uppercase mb-md-2 mb-lg-3 ms-lg-2">26/04/2025 – K.B.
-                            Hallen, Copenhagen</p>
-                        <div class="d-flex flex-row">
+                        <p class="event-card-text mb-1 mb-md-2 mb-lg-3 ms-lg-2 font-text">
+                            Expect fierce battles in the octagon, featuring both emerging local fighters and
+                            international MMA stars.
+                            DOMINANCE FC 3.0 promises to deliver high-stakes competition and a unique atmosphere
+                            you won’t want to miss!
+                        </p>
+                        <p class="fw-bold event-card-text mb-1 mb-md-2 mb-lg-3 ms-lg-2">Secure your tickets and be part of the next
+                            chapter in European MMA history!</p>
+                        <p class="text-white event-card-text ms-lg-2 mb-lg-3">Tickets are available now!</p>
+                    </div>
 
-                            <!-- Text section -->
-                            <div>
-                                <p class="event-card-text mb-1 mb-md-2 mb-lg-3 ms-lg-2">
-                                    Expect fierce battles in the octagon, featuring both emerging local fighters and
-                                    international MMA stars.
-                                    DOMINANCE FC 3.0 promises to deliver high-stakes competition and a unique atmosphere
-                                    you won’t want to miss!
-                                </p>
-                                <p class="fw-bold event-card-text mb-1 mb-md-2 mb-lg-3 ms-lg-2">Secure your tickets and be part of the next
-                                    chapter in European MMA history!</p>
-                                <p class="text-white event-card-text ms-lg-2 mb-lg-3">Tickets are available now!</p>
-                            </div>
-
-                            <!-- Button Section -->
-                            <div class="col-md-4 text-md-end text-center d-flex align-items-center justify-content-end ps-3 me-md-5">
-                                <a href="#"
-                                   class="btn btn-orange rounded-0 text-uppercase text-white fw-bold px-3 py-2 m-0 px-md-4 py-md-3 px-lg-5 py-lg-4"
-                                   id="buy-tickets-text">Buy Tickets</a>
-                            </div>
-                        </div>
+                    <!-- Button Section -->
+                    <div class="col-md-4 text-md-end text-center d-flex align-items-center justify-content-end ps-3 me-md-5">
+                        <a href="#"
+                           class="btn btn-orange rounded-0 text-uppercase text-white fw-bold px-3 py-2 m-0 px-md-4 py-md-3 px-lg-5 py-lg-4"
+                           id="buy-tickets-text">Buy Tickets</a>
                     </div>
                 </div>
             </div>

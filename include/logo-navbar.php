@@ -18,7 +18,7 @@
                 <a class="nav-link text-white navbar-fontsize-mobil" href="/fighter-sign-up.php">SIGN UP</a>
             </div>
             <div class="nav-item">
-                <a class="nav-link text-white navbar-fontsize-mobil" href="#">LIVE TV <i
+                <a class="nav-link text-white navbar-fontsize-mobil" href="/live-tv.php">LIVE TV <i
                             class="fa-solid fa-circle text-orange "></i></a>
             </div>
             <div class="nav-item">
@@ -58,7 +58,7 @@
 
 <!-- Navbar -->
 <nav class="navbar container-fluid bg-black d-none d-md-block">
-    <div class="navbar-nav d-flex flex-row justify-content-evenly w-100">
+    <div class="navbar-nav d-flex flex-row justify-content-evenly w-100 font-overtext">
         <div class="nav-item">
             <a class="nav-link text-white navbar-fontsize" href="#">EVENT</a>
         </div>
