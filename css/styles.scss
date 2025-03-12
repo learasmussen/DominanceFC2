@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'Supermolot';
+	src: url('../fonts/TT Supermolot Neue Trial Expanded ExtraBold Italic.ttf') format('truetype');
+}
+
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "../node_modules/bootstrap/scss/functions";
 
@@ -27,11 +32,11 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 /* Full-Screen Dropdown Styling */
 
 .font-overtext{
-	font-family: "TT Supermolot Neue Trl Ext ExBd", serif;
+	font-family: "Supermolot", serif;
 }
 
 .font-text{
-	font-family: "Yu Gothic UI", serif;
+	font-family: "Yu Gothic UI Light", serif;
 }
 
 /* Navbar */
@@ -617,8 +622,8 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 		font-size: 38px;
 	}
 
-	#live-card-pluto-tv{
-		font-size: 35px;
+	#live-card-pluto-tv-gray-text{
+		font-size: 25px;
 	}
 
 	#watch-live-text{
