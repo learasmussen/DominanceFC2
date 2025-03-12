@@ -29,7 +29,7 @@ require "settings/init.php";
     <div class="row">
         <div class="col-12 p-0 position-relative">
             <!-- Text positioned on top-left -->
-            <div class="top-image-text position-absolute top-0 start-0 text-orange fw-bold p-3 p-md-4 p-lg-5">
+            <div class="top-image-text position-absolute top-0 start-0 font-overtext text-orange fw-bold p-3 p-md-4 p-lg-5">
                 LIVE TV
             </div>
             <!-- Background Image -->

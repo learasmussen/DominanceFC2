@@ -46,7 +46,7 @@
                 <div class="text-center">
                     <div class="d-flex flex-column gap-3 fs-3 fw-bold text-uppercase mt-n3">
                         <a href="sponsors.html" class="text-white text-decoration-none">SPONSORS</a>
-                        <a href="partners.html" class="text-white text-decoration-none">PARTNERS</a>
+                        <a href="../partners.php" class="text-white text-decoration-none">PARTNERS</a>
                         <a href="about.html" class="text-white text-decoration-none">ABOUT</a>
                         <a href="contact.html" class="text-white text-decoration-none">CONTACT</a>
                     </div>
@@ -69,7 +69,7 @@
             <a class="nav-link text-white navbar-fontsize" href="#">SPONSORS</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link text-white navbar-fontsize" href="#">PARTNERS</a>
+            <a class="nav-link text-white navbar-fontsize" href="../partners.php">PARTNERS</a>
         </div>
         <div class="nav-item">
             <a class="nav-link text-white navbar-fontsize" href="#">ABOUT</a>

@@ -214,6 +214,18 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-size: 7px;
 }
 
+#dominance-fc-partners-header{
+	font-size: 15px;
+}
+
+#dominance-fc-partners-text{
+	font-size: 8px;
+}
+
+.kbhallen-nordicmedia-text{
+	font-size: 7px;
+}
+
 
 @media only screen and (min-width: 375px){
 
@@ -222,6 +234,10 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	}
 
 	#live-card-pluto-tv{
+		font-size: 10px;
+	}
+
+	#live-card-pluto-tv-gray-text{
 		font-size: 10px;
 	}
 
@@ -273,7 +289,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 	/* Apply for our fighter roster - fighter sign up */
 	#apply-for-our-fighter-roster-header{
-		font-size: 10px;
+		font-size: 8px;
 	}
 
 	.apply-for-our-fighter-roster-text{
@@ -295,6 +311,10 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	}
 
 	#live-card-pluto-tv{
+		font-size: 12px;
+	}
+
+	#live-card-pluto-tv-gray-text{
 		font-size: 12px;
 	}
 
@@ -360,6 +380,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	.apply-for-our-fighter-roster-text{
 		font-size: 7px;
 	}
+
 
 
 }
@@ -501,6 +522,18 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	#submit-me-as-a-fighter-button{
 		font-size: 12px;
 	}
+
+	#dominance-fc-partners-header{
+		font-size: 25px;
+	}
+
+	#dominance-fc-partners-text{
+		font-size: 20px;
+	}
+
+	.kbhallen-nordicmedia-text{
+		font-size: 15px;
+	}
 }
 
 @media only screen and (min-width: 1024px){
@@ -613,6 +646,18 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	}
 
 	#live-card-pluto-tv-gray-text{
+		font-size: 20px;
+	}
+
+	#dominance-fc-partners-header{
+		font-size: 30px;
+	}
+
+	#dominance-fc-partners-text{
+		font-size: 25px;
+	}
+
+	.kbhallen-nordicmedia-text{
 		font-size: 20px;
 	}
 
@@ -755,6 +800,18 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 	#submit-me-as-a-fighter-button{
 		font-size: 22px;
+	}
+
+	#dominance-fc-partners-header{
+		font-size: 35px;
+	}
+
+	#dominance-fc-partners-text{
+		font-size: 30px;
+	}
+
+	.kbhallen-nordicmedia-text{
+		font-size: 25px;
 	}
 }
 
