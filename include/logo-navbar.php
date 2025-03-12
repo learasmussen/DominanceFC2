@@ -2,23 +2,23 @@
 <div class="container logo p-2 m-md-0">
     <div class="row">
         <div>
-            <a href="/index.php"><img src="images/long-logo.png" alt="long-logo" class="col-4 col-md-2"></a>
+            <a href="/index.php"><img src="../images/long-logo.png" alt="long-logo" class="col-4 col-md-2"></a>
         </div>
     </div>
 </div>
 
 <!-- Navbar mobile -->
 <div class="d-md-none">
-    <nav class="navbar container- bg-black m-0">
+    <nav class="navbar container bg-black m-0 font-overtext">
         <div class="navbar-nav d-flex flex-row justify-content-evenly w-100">
             <div class="nav-item">
-                <a class="nav-link text-white navbar-fontsize-mobil" href="/event.php">EVENT</a>
+                <a class="nav-link text-white navbar-fontsize-mobil" href="../event.php">EVENT</a>
             </div>
             <div class="nav-item">
-                <a class="nav-link text-white navbar-fontsize-mobil" href="/fighter-sign-up.php">SIGN UP</a>
+                <a class="nav-link text-white navbar-fontsize-mobil" href="../fighter-sign-up.php">SIGN UP</a>
             </div>
             <div class="nav-item">
-                <a class="nav-link text-white navbar-fontsize-mobil" href="/live-tv.php">LIVE TV <i
+                <a class="nav-link text-white navbar-fontsize-mobil" href="../live-tv.php">LIVE TV <i
                             class="fa-solid fa-circle text-orange "></i></a>
             </div>
             <div class="nav-item">
@@ -60,10 +60,10 @@
 <nav class="navbar container-fluid bg-black d-none d-md-block">
     <div class="navbar-nav d-flex flex-row justify-content-evenly w-100 font-overtext">
         <div class="nav-item">
-            <a class="nav-link text-white navbar-fontsize" href="#">EVENT</a>
+            <a class="nav-link text-white navbar-fontsize" href="../event.php">EVENT</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link text-white navbar-fontsize" href="#">FIGHTER SIGN UP</a>
+            <a class="nav-link text-white navbar-fontsize" href="../fighter-sign-up.php">FIGHTER SIGN UP</a>
         </div>
         <div class="nav-item">
             <a class="nav-link text-white navbar-fontsize" href="#">SPONSORS</a>
@@ -78,7 +78,7 @@
             <a class="nav-link text-white navbar-fontsize" href="#">MERCH</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link text-white navbar-fontsize" href="#">LIVE TV <i
+            <a class="nav-link text-white navbar-fontsize" href="../live-tv.php">LIVE TV <i
                         class="fa-solid fa-circle text-orange "></i></a>
         </div>
         <div class="nav-item">

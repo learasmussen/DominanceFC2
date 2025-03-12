@@ -3,6 +3,11 @@
 	src: url('../fonts/TT Supermolot Neue Trial Expanded ExtraBold Italic.ttf') format('truetype');
 }
 
+@font-face {
+	font-family: 'Yu Gothic';
+	src: url('../fonts/yu-gothic-regular.ttf') format('truetype');
+}
+
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "../node_modules/bootstrap/scss/functions";
 
@@ -36,7 +41,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 
 .font-text{
-	font-family: "Yu Gothic UI Light", serif;
+	font-family: "Yu Gothic", serif;
 }
 
 /* Navbar */
@@ -163,11 +168,11 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 /* Apply for our fighter roster - fighter sign up */
 #apply-for-our-fighter-roster-header{
-	font-size: 8px;
+	font-size: 7px;
 }
 
 .apply-for-our-fighter-roster-text{
-	font-size: 5px;
+	font-size: 4.75px;
 }
 
 
@@ -202,6 +207,10 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 
 #submit-me-as-a-fighter-button{
+	font-size: 7px;
+}
+
+#live-card-pluto-tv-gray-text{
 	font-size: 7px;
 }
 
@@ -458,7 +467,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 	/* Apply for our fighter roster - fighter sign up */
 	#apply-for-our-fighter-roster-header{
-		font-size: 20px;
+		font-size: 15px;
 	}
 
 	.apply-for-our-fighter-roster-text{
@@ -508,7 +517,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	}
 
 	#watch-live-underheader{
-		font-size: 35px;
+		font-size: 30px;
 	}
 
 	.live-card-text{
@@ -593,7 +602,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 	/* Apply for our fighter roster - fighter sign up */
 	#apply-for-our-fighter-roster-header{
-		font-size: 25px;
+		font-size: 22px;
 	}
 
 	.apply-for-our-fighter-roster-text{
@@ -602,6 +611,11 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	.email-subscribe{
 		font-size: 15px;
 	}
+
+	#live-card-pluto-tv-gray-text{
+		font-size: 20px;
+	}
+
 }
 
 @media only screen and (min-width: 1440px){

@@ -39,8 +39,8 @@ require "settings/init.php";
 </div>
 
 <!-- Watch live card-->
-<div class="container-fluid bg-dark-gray mt-3 mb-3">
-    <div class="row mb-3">
+<div class="container-fluid bg-dark-gray mt-3 mb-3 my-lg-5">
+    <div class="row mb-3 font-overtext">
         <div class="col-12 text-orange fw-bold text-center" id="watch-live-header">
             WATCH LIVE
         </div>
@@ -49,7 +49,7 @@ require "settings/init.php";
         </div>
     </div>
 
-    <div class="row">
+    <div class="row font-text">
         <div class="col-6 pe-1 mb-3 pe-md-2 ps-lg-5 pe-lg-3 mb-lg-4">
 
             <img src="images/live-card-image.png" alt="livecardimage" class="col-12">
@@ -64,7 +64,7 @@ require "settings/init.php";
             <!-- Button Section -->
             <div class="col-md-4 text-md-end text-center d-flex align-items-center justify-content-start">
                 <a href="#"
-                   class="btn btn-orange rounded-0 text-uppercase text-white fw-bold px-2 py-1 m-0 px-md-4 py-md-3 px-lg-5 py-lg-4"
+                   class="font-overtext btn btn-orange rounded-0 text-uppercase text-white fw-bold px-2 py-1 m-0 px-md-4 py-md-3 px-lg-5 py-lg-4"
                    id="watch-live-text">WATCH LIVE</a>
             </div>
 
