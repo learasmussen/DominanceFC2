@@ -226,6 +226,13 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-size: 7px;
 }
 
+#what-do-we-aim-to-achieve-header{
+	font-size: 8px;
+}
+
+.what-do-we-aim-to-achieve-text{
+	font-size: 4px;
+}
 
 @media only screen and (min-width: 375px){
 
@@ -259,7 +266,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	}
 
 	#what-is-dominance-fc-header{
-		font-size: 15px;
+		font-size: 10px;
 	}
 
 	.what-is-dominance-fc-text{
@@ -267,7 +274,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	}
 
 	.mark-o-madsen-ceo{
-		font-size: 9px;
+		font-size: 7px;
 		white-space: nowrap;
 	}
 
@@ -301,6 +308,13 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 		font-size: 5.5px;
 	}
 
+	#what-do-we-aim-to-achieve-header{
+		font-size: 9px;
+	}
+
+	.what-do-we-aim-to-achieve-text{
+		font-size: 5px;
+	}
 
 }
 
@@ -336,7 +350,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	}
 
 	#what-is-dominance-fc-header{
-		font-size: 17px;
+		font-size: 15px;
 	}
 
 	.what-is-dominance-fc-text{
@@ -344,7 +358,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	}
 
 	.mark-o-madsen-ceo{
-		font-size: 10px;
+		font-size: 8px;
 		white-space: nowrap;
 	}
 
@@ -381,7 +395,13 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 		font-size: 7px;
 	}
 
+	#what-do-we-aim-to-achieve-header{
+		font-size: 10px;
+	}
 
+	.what-do-we-aim-to-achieve-text{
+		font-size: 6px;
+	}
 
 }
 
@@ -534,6 +554,14 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	.kbhallen-nordicmedia-text{
 		font-size: 15px;
 	}
+
+	#what-do-we-aim-to-achieve-header{
+		font-size: 19px;
+	}
+
+	.what-do-we-aim-to-achieve-text{
+		font-size: 10px;
+	}
 }
 
 @media only screen and (min-width: 1024px){
@@ -659,6 +687,14 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 	.kbhallen-nordicmedia-text{
 		font-size: 20px;
+	}
+
+	#what-do-we-aim-to-achieve-header{
+		font-size: 24px;
+	}
+
+	.what-do-we-aim-to-achieve-text{
+		font-size: 14.5px;
 	}
 
 }
@@ -812,6 +848,14 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 	.kbhallen-nordicmedia-text{
 		font-size: 25px;
+	}
+
+	#what-do-we-aim-to-achieve-header{
+		font-size: 35px;
+	}
+
+	.what-do-we-aim-to-achieve-text{
+		font-size: 21.5px;
 	}
 }
 
