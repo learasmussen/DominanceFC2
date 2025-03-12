@@ -35,7 +35,7 @@
         <div>
             <!-- Full-Screen Dropdown -->
             <div id="fullScreenDropdown"
-                 class="position-fixed top-0 start-0 w-100 h-100 bg-dark d-none justify-content-center align-items-center text-white z-3">
+                 class="position-fixed top-0 start-0 w-100 h-100 bg-black d-none justify-content-center align-items-center text-white z-3">
                 <!-- Close Button -->
                 <button class="position-absolute top-0 end-0 mt-3 me-4 border-0 bg-transparent text-orange fs-1 fw-bold"
                         id="closeDropdown">
@@ -43,7 +43,7 @@
                 </button>
 
                 <!-- Menu Items -->
-                <div class="text-center">
+                <div class="text-center font-overtext">
                     <div class="d-flex flex-column gap-3 fs-3 fw-bold text-uppercase mt-n3">
                         <a href="sponsors.html" class="text-white text-decoration-none">SPONSORS</a>
                         <a href="../partners.php" class="text-white text-decoration-none">PARTNERS</a>

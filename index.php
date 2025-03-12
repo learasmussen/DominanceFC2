@@ -146,7 +146,7 @@ require "settings/init.php";
 
             <div class="text-orange fw-bold mt-2 font-overtext" id="apply-for-our-roster-header">APPLY FOR OUR FIGHTER ROSTER</div>
             <p class="apply-for-our-roster-text text-white mb-1 mb-md-2 font-text">We are always looking for new and exciting athletes to join our ranks at Dominance FC!</p>
-            <p class="apply-for-our-roster-text text-white mb-1 mb-md-3 font-text">Do you have what it takes to perform at the top level, and compete with some of the best and most prominent fighters in the world?</p>
+            <p class="apply-for-our-roster-text text-white mb-2 mb-md-3 font-text">Do you have what it takes to perform at the top level, and compete with some of the best and most prominent fighters in the world?</p>
 
             <!-- Button Section -->
             <div class="col-md-4 text-md-end text-center d-flex align-items-center justify-content-start">
