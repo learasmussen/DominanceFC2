@@ -45,7 +45,7 @@
                 <!-- Menu Items -->
                 <div class="text-center font-overtext">
                     <div class="d-flex flex-column gap-3 fs-3 fw-bold text-uppercase mt-n3">
-                        <a href="sponsors.html" class="text-white text-decoration-none">SPONSORS</a>
+                        <a href="../sponsors.php" class="text-white text-decoration-none">SPONSORS</a>
                         <a href="../partners.php" class="text-white text-decoration-none">PARTNERS</a>
                         <a href="../about.php" class="text-white text-decoration-none">ABOUT</a>
                         <a href="contact.html" class="text-white text-decoration-none">CONTACT</a>
@@ -66,7 +66,7 @@
             <a class="nav-link text-white navbar-fontsize" href="../fighter-sign-up.php">FIGHTER SIGN UP</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link text-white navbar-fontsize" href="#">SPONSORS</a>
+            <a class="nav-link text-white navbar-fontsize" href="../sponsors.php">SPONSORS</a>
         </div>
         <div class="nav-item">
             <a class="nav-link text-white navbar-fontsize" href="../partners.php">PARTNERS</a>
