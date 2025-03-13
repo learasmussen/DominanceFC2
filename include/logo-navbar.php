@@ -48,7 +48,7 @@
                         <a href="../sponsors.php" class="text-white text-decoration-none">SPONSORS</a>
                         <a href="../partners.php" class="text-white text-decoration-none">PARTNERS</a>
                         <a href="../about.php" class="text-white text-decoration-none">ABOUT</a>
-                        <a href="contact.html" class="text-white text-decoration-none">CONTACT</a>
+                        <a href="../contact.php" class="text-white text-decoration-none">CONTACT</a>
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@
                         class="fa-solid fa-circle text-orange "></i></a>
         </div>
         <div class="nav-item">
-            <a class="nav-link text-white navbar-fontsize" href="#">CONTACT</a>
+            <a class="nav-link text-white navbar-fontsize" href="../contact.php">CONTACT</a>
         </div>
     </div>
 </nav>
