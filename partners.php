@@ -38,6 +38,7 @@ require "settings/init.php";
     </div>
 </div>
 
+<!-- Partners header-->
 <div class="container">
     <h1 class="text-center mt-3 mt-md-5 text-orange font-overtext" id="dominance-fc-partners-header">DOMINANCE FC PARTNERS</h1>
     <p class="text-center my-2 text-black font-text fw-bold px-3" id="dominance-fc-partners-text">
@@ -45,6 +46,7 @@ require "settings/init.php";
     </p>
 </div>
 
+<!-- Partners elements-->
 <div class="container my-3 my-md-5">
     <div class="row justify-content-center">
 
