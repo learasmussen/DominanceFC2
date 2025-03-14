@@ -1,5 +1,5 @@
 <!-- Logo -->
-<div class="container logo p-2 m-md-0">
+<div class="container logo ps-2 py-2 m-md-0">
     <div class="row">
         <div>
             <a href="/index.php"><img src="../images/long-logo.png" alt="long-logo" class="col-4 col-md-2"></a>
@@ -22,7 +22,7 @@
                             class="fa-solid fa-circle text-orange "></i></a>
             </div>
             <div class="nav-item">
-                <a class="nav-link text-white navbar-fontsize-mobil" href="#">MERCH</a>
+                <a class="nav-link text-white navbar-fontsize-mobil" href="../merch.php">MERCH</a>
             </div>
             <div class="nav-item">
                 <a class="nav-link text-white navbar-fontsize-mobil" href="#" id="otherDropdown">OTHER <i
@@ -75,7 +75,7 @@
             <a class="nav-link text-white navbar-fontsize" href="../about.php">ABOUT</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link text-white navbar-fontsize" href="#">MERCH</a>
+            <a class="nav-link text-white navbar-fontsize" href="../merch.php">MERCH</a>
         </div>
         <div class="nav-item">
             <a class="nav-link text-white navbar-fontsize" href="../live-tv.php">LIVE TV <i

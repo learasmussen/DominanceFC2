@@ -180,7 +180,7 @@ require "settings/init.php";
 
         <div class="col-5 ps-2 pe-0 ">
 
-            <img src="images/WHITE%20TSHIRT-PNG.png" alt="white-t-shirt-image" class="col-12">
+            <img src="images/WHITE-TSHIRT-PNG.png" alt="white-t-shirt-image" class="col-12">
 
         </div>
 

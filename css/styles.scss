@@ -270,6 +270,11 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-size: 5px;
 }
 
+.merch-selection-buttons{
+	font-size: 6px;
+	white-space: nowrap;
+}
+
 
 @media only screen and (min-width: 375px){
 
@@ -512,6 +517,10 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 		font-size: 12px;
 	}
 
+	.merch-selection-buttons{
+		font-size: 7px;
+		white-space: nowrap;
+	}
 
 }
 
@@ -713,6 +722,19 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 		font-size: 20px;
 	}
 
+	.merch-selection-buttons{
+		font-size: 12px;
+		white-space: nowrap;
+	}
+
+	.merch-header{
+		font-size: 18px;
+	}
+
+	.merch-price{
+		font-size: 14px;
+	}
+
 }
 
 @media only screen and (min-width: 1024px){
@@ -886,6 +908,19 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 	#contact-dominance-fc-button{
 		font-size: 20px;
+	}
+
+	.merch-selection-buttons{
+		font-size: 17px;
+		white-space: nowrap;
+	}
+
+	.merch-header{
+		font-size: 23px;
+	}
+
+	.merch-price{
+		font-size: 19px;
 	}
 
 }
@@ -1087,6 +1122,19 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 	#contact-dominance-fc-button{
 		font-size: 40px;
+	}
+
+	.merch-selection-buttons{
+		font-size: 25px;
+		white-space: nowrap;
+	}
+
+	.merch-header{
+		font-size: 33px;
+	}
+
+	.merch-price{
+		font-size: 29px;
 	}
 
 }
