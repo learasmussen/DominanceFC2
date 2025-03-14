@@ -34,15 +34,14 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // 5. Du kan lave styling her...
 
-/* Full-Screen Dropdown Styling */
-
+/* Fonts */
 .font-overtext{
 	font-family: "Supermolot", serif;
 }
-
 .font-text{
 	font-family: "Yu Gothic", serif;
 }
+
 
 /* Navbar */
 .navbar-fontsize-mobil{
@@ -50,74 +49,65 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 
 
-/* Event card */
+/* Event card - Front page and Event page*/
 #event-card-negative-margin{
 	margin-top: -50px;
 }
-
 #upcoming-events-header{
 	font-size: 17px;
 }
-
 .event-card-big-text{
 	font-size: 10px;
 }
-
 .event-card-text{
 	font-size: 7px;
 }
-
 #buy-tickets-text{
 	font-size: 10px;
 	white-space: nowrap;
 }
 
 
-/* Watch live card */
+/* Watch live card - Front page and Live tv page*/
 #watch-live-header{
 	font-size: 25px;
 }
-
 #watch-live-underheader{
 	font-size: 10px;
 }
-
 .live-card-text{
 	font-size: 9px;
 }
-
 #live-card-pluto-tv{
 	font-size: 7px;
 }
-
 #watch-live-text{
 	font-size: 10px;
 }
-
-
-/* Apply for our roster - front page */
-#apply-for-our-roster-header{
+#live-card-pluto-tv-gray-text{
 	font-size: 7px;
 }
 
+
+/* Apply for our roster - Front page */
+#apply-for-our-roster-header{
+	font-size: 7px;
+}
 .apply-for-our-roster-text{
 	font-size: 5px;
 }
-
 #sign-up-text{
 	font-size: 7px;
 }
 
 
-/* Merch info box - front page mobil */
+/* Merch info box - Front page mobil */
 #merch-header{
 	font-size: 15px;
 }
-
 .merch-text{
 	font-size: 7px;
 }
-
 #view-our-merch-text{
 	font-size: 10px;
 }
@@ -127,149 +117,137 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 #sign-up-for-newsletter-header{
 	font-size: 10px;
 }
-
 .footer-headers{
 	font-size: 6px;
 }
-
 .footer-text{
 	font-size: 5px;
 }
-
 .email-subscribe{
 	font-size: 8px;
 }
 
 
-/* What is dominance fc */
+/* What is dominance fc - Front page and About page*/
 #what-is-dominance-fc-header{
 	font-size: 10px;
 }
-
 .what-is-dominance-fc-text{
 	font-size: 6px;
 }
-
 .mark-o-madsen-ceo{
 	font-size: 7px;
 	white-space: nowrap;
 }
-
 #apostrophie{
 	font-size: 30px;
 }
 
 
-/* Event cards with information and pictures */
+/* Event cards with information and pictures - Events page*/
 .event-cards-information-text{
 	font-size: 6px;
 }
 
 
-/* Apply for our fighter roster - fighter sign up */
+/* Apply for our fighter roster - fighter sign up page*/
 #apply-for-our-fighter-roster-header{
 	font-size: 7px;
 }
-
 .apply-for-our-fighter-roster-text{
 	font-size: 4.75px;
 }
 
 
-/* Become a dominance fc fighter */
+/* Become a dominance fc fighter - Figter sign up page*/
 ::placeholder {
 	color: white !important;
 	opacity: 1;
 }
-
 #become-a-dominance-fc-fighter-header{
 	font-size: 10px;
 }
-
 #become-a-dominance-fc-fighter-text{
 	font-size: 8px;
 }
-
 .fighter-sign-up-input-fields{
 	font-size: 5px;
 }
-
 #do-you-allow{
 	font-size: 5px;
 }
-
 .yes-no-permission{
 	font-size: 7px;
 }
-
 .fa-circle{
 	font-size: 7px;
 }
-
 #submit-me-as-a-fighter-button{
 	font-size: 7px;
 }
 
-#live-card-pluto-tv-gray-text{
-	font-size: 7px;
-}
 
+/* Dominance fc partners - Partners page*/
 #dominance-fc-partners-header{
 	font-size: 15px;
 }
-
 #dominance-fc-partners-text{
 	font-size: 8px;
 }
-
 .kbhallen-nordicmedia-text{
 	font-size: 7px;
 }
 
+
+/* What do we aim to achieve - About page*/
 #what-do-we-aim-to-achieve-header{
 	font-size: 8px;
 }
-
 .what-do-we-aim-to-achieve-text{
 	font-size: 4px;
 }
 
+
+/* Airtox sponsorship - Sponsors page*/
 .airtox-sponsership-text{
 	font-size: 4px;
 }
 
+
+/* Benefits of being a sponsor - Sponsors page*/
 #benefits-header{
 	font-size: 11px;
 }
-
 .benefits-images-header{
 	font-size: 6px;
 }
-
 .benefits-images-text{
 	font-size: 4px;
 }
 
+
+/* Join the action - About page*/
 #join-the-action-header{
 	font-size: 7px;
 }
-
 .join-the-action-text{
 	font-size: 4.15px;
 }
 
+
+/* Contact dominance fc - Contact page*/
 #contact-dominance-fc-header{
 	font-size: 15px;
 }
-
 #contact-dominance-fc-text{
 	font-size: 10px;
 }
-
 .contact-input-fields{
 	font-size: 5px;
 }
 
+
+/* Merch selection buttons - Merch page */
 .merch-selection-buttons{
 	font-size: 6px;
 	white-space: nowrap;
@@ -278,60 +256,57 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @media only screen and (min-width: 375px){
 
+	/* Watch live card - Front page and Live tv page*/
 	.live-card-text{
 		font-size: 11px;
 	}
-
 	#live-card-pluto-tv{
 		font-size: 10px;
 	}
-
 	#live-card-pluto-tv-gray-text{
 		font-size: 10px;
 	}
-
 	#watch-live-text{
 		font-size: 12px;
 	}
 
+
+	/* Apply for our roster - Front page */
 	#apply-for-our-roster-header{
 		font-size: 10px;
 	}
-
 	.apply-for-our-roster-text{
 		font-size: 6px;
 
 	}
-
 	#sign-up-text{
 		font-size: 10px;
 	}
 
+
+	/* What is dominance fc - Front page and About page*/
 	#what-is-dominance-fc-header{
 		font-size: 10px;
 	}
-
 	.what-is-dominance-fc-text{
 		font-size: 7px;
 	}
-
 	.mark-o-madsen-ceo{
 		font-size: 7px;
 		white-space: nowrap;
 	}
-
 	#apostrophie{
 		font-size: 40px;
 	}
 
+
+	/* Merch info-box - Front page*/
 	#merch-header{
 		font-size: 18px;
 	}
-
 	.merch-text{
 		font-size: 10px;
 	}
-
 	#view-our-merch-text{
 		font-size: 10px;
 	}
@@ -340,56 +315,57 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	#apply-for-our-fighter-roster-header{
 		font-size: 8px;
 	}
-
 	.apply-for-our-fighter-roster-text{
 		font-size: 6px;
 	}
-
-
 	#do-you-allow{
 		font-size: 5.5px;
 	}
 
+
+	/* What do we aim to achieve - About page*/
 	#what-do-we-aim-to-achieve-header{
 		font-size: 9px;
 	}
-
 	.what-do-we-aim-to-achieve-text{
 		font-size: 5px;
 	}
 
+
+	/* Airtox sponsorship - Sponsor page*/
 	.airtox-sponsership-text{
 		font-size: 5.25px;
 	}
 
+
+	/* Benefits of being a sponsor - Sponsors page*/
 	#benefits-header{
 		font-size: 12px;
 	}
-
 	.benefits-images-header{
 		font-size: 7px;
 	}
-
 	.benefits-images-text{
 		font-size: 5px;
 	}
 
+
+	/* Join the action - About page*/
 	#join-the-action-header{
 		font-size: 8px;
 	}
-
 	.join-the-action-text{
 		font-size: 5.15px;
 	}
 
+
+	/* Contact dominance fc - Contact page*/
 	#contact-dominance-fc-header{
 		font-size: 17px;
 	}
-
 	#contact-dominance-fc-text{
 		font-size: 12px;
 	}
-
 	.contact-input-fields{
 		font-size: 9px;
 	}
@@ -398,125 +374,130 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @media only screen and (min-width: 425px){
 
+	/* Watch live card - Front page and Live tv page*/
 	.live-card-text{
 		font-size: 13px;
 	}
-
 	#live-card-pluto-tv{
 		font-size: 12px;
 	}
-
 	#live-card-pluto-tv-gray-text{
 		font-size: 12px;
 	}
-
 	#watch-live-text{
 		font-size: 14px;
 	}
 
+
+	/* Apply for our roster - Front page */
 	#apply-for-our-roster-header{
 		font-size: 12px;
 	}
-
 	.apply-for-our-roster-text{
 		font-size: 7px;
 
 	}
-
 	#sign-up-text{
 		font-size: 12px;
 	}
 
+
+	/* What is dominance fc - Front page and About page*/
 	#what-is-dominance-fc-header{
 		font-size: 15px;
 	}
-
 	.what-is-dominance-fc-text{
 		font-size: 8px;
 	}
-
 	.mark-o-madsen-ceo{
 		font-size: 8px;
 		white-space: nowrap;
 	}
-
 	#apostrophie{
 		font-size: 40px;
 	}
 
+
+	/* Merch info box - Front page mobil */
 	#merch-header{
 		font-size: 22px;
 	}
-
 	.merch-text{
 		font-size: 12px;
 	}
-
 	#view-our-merch-text{
 		font-size: 10px;
 	}
 
+
+	/* Event cards with information and pictures - Events page*/
 	.event-cards-information-text{
 		font-size: 8px;
 	}
 
-	#do-you-allow{
-		font-size: 6px;
-	}
+
 
 	/* Apply for our fighter roster - fighter sign up */
 	#apply-for-our-fighter-roster-header{
 		font-size: 10px;
 	}
-
 	.apply-for-our-fighter-roster-text{
 		font-size: 7px;
 	}
+	#do-you-allow{
+		font-size: 6px;
+	}
 
+
+	/* What do we aim to achieve - About page*/
 	#what-do-we-aim-to-achieve-header{
 		font-size: 10px;
 	}
-
 	.what-do-we-aim-to-achieve-text{
 		font-size: 6px;
 	}
 
+
+	/* Airtox sponsorship - Sponsors page*/
 	.airtox-sponsership-text{
 		font-size: 6.15px;
 	}
 
+
+	/* Benefits of being a sponsor - Sponsors page*/
 	#benefits-header{
 		font-size: 13px;
 	}
-
 	.benefits-images-header{
 		font-size: 8px;
 	}
-
 	.benefits-images-text{
 		font-size: 6px;
 	}
 
+
+	/* Join the action - About page*/
 	#join-the-action-header{
 		font-size: 9px;
 	}
-
 	.join-the-action-text{
 		font-size: 6.15px;
 	}
 
+
+	/* Contact dominance fc - Contact page*/
 	#contact-dominance-fc-header{
 		font-size: 19px;
 	}
-
 	#contact-dominance-fc-text{
 		font-size: 12px;
 	}
-
 	.contact-input-fields{
 		font-size: 12px;
 	}
 
+
+	/* Merch selection buttons - Merch page */
 	.merch-selection-buttons{
 		font-size: 7px;
 		white-space: nowrap;
@@ -525,212 +506,212 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 
 @media only screen and (min-width: 768px){
+
+	/* Navbar */
 	.navbar-fontsize{
 		font-size: 12px;
 	}
 
+
+	/* Event card - Front page and Event page*/
 	#event-card-negative-margin{
 		margin-top: -100px;
 	}
-
 	#upcoming-events-header{
 		font-size: 28px;
 	}
-
 	.event-card-big-text{
 		font-size: 15px;
 	}
-
 	.event-card-text{
 		font-size: 13px;
 	}
-
 	#buy-tickets-text{
 		font-size: 18px;
 	}
 
+
+	/* Watch live card - Front page and Live tv page*/
 	#watch-live-header{
 		font-size: 40px;
 	}
-
 	#watch-live-underheader{
 		font-size: 25px;
 	}
-
 	.live-card-text{
 		font-size: 20px;
 	}
-
 	#live-card-pluto-tv{
 		font-size: 18px;
 	}
-
 	#watch-live-text{
 		font-size: 25px;
 		white-space: nowrap;
 	}
 
+
+	/* Apply for our roster - Front page */
 	#apply-for-our-roster-header{
 		font-size: 20px;
 	}
-
 	.apply-for-our-roster-text{
 		font-size: 13px;
 
 	}
-
 	#sign-up-text{
 		font-size: 15px;
 		white-space: nowrap;
 	}
 
+
+	/* Footer */
 	#sign-up-for-newsletter-header{
 		font-size: 15px;
 	}
-
 	.footer-headers{
 		font-size: 13px;
 	}
-
 	.footer-text{
 		font-size: 11px;
 	}
-
 	.email-subscribe{
 		font-size: 10px;
 	}
 
+
+	/* What is dominance fc - Front page and About page*/
 	#what-is-dominance-fc-header{
 		font-size: 22px;
 	}
-
 	.what-is-dominance-fc-text{
 		font-size: 14px;
 	}
-
 	.mark-o-madsen-ceo{
 		font-size: 15px;
 		white-space: nowrap;
 	}
-
 	#apostrophie{
 		font-size: 50px;
 	}
 
+
+	/* Event cards with information and pictures - Events page*/
 	.event-cards-information-text{
 		font-size: 12px;
 	}
 
+
+	/* Top image*/
 	.top-image-text{
 		font-size: 35px;
 	}
+
+
 
 	/* Apply for our fighter roster - fighter sign up */
 	#apply-for-our-fighter-roster-header{
 		font-size: 15px;
 	}
-
 	.apply-for-our-fighter-roster-text{
 		font-size: 12.5px;
 	}
 
+
+	/* Become a dominance fc fighter - Figter sign up page*/
 	#become-a-dominance-fc-fighter-header{
 		font-size: 25px;
 	}
-
 	#become-a-dominance-fc-fighter-text{
 		font-size: 15px;
 	}
-
 	.fighter-sign-up-input-fields{
 		font-size: 10px;
 	}
-
 	#do-you-allow{
 		font-size: 11px;
 	}
-
 	.yes-no-permission{
 		font-size: 12px;
 	}
-
 	.fa-circle{
 		font-size: 12px;
 	}
-
 	#submit-me-as-a-fighter-button{
 		font-size: 12px;
 	}
 
+
+	/* Dominance fc partners - Partners page*/
 	#dominance-fc-partners-header{
 		font-size: 25px;
 	}
-
 	#dominance-fc-partners-text{
 		font-size: 20px;
 	}
-
 	.kbhallen-nordicmedia-text{
 		font-size: 15px;
 	}
 
+
+	/* What do we aim to achieve - About page*/
 	#what-do-we-aim-to-achieve-header{
 		font-size: 19px;
 	}
-
 	.what-do-we-aim-to-achieve-text{
 		font-size: 10px;
 	}
 
+
+	/* Airtox sponsorship - Sponsors page*/
 	.airtox-sponsership-text{
 		font-size: 10.25px;
 	}
 
+
+	/* Benefits of being a sponsor - Sponsors page*/
 	#benefits-header{
 		font-size: 25px;
 	}
-
 	.benefits-images-header{
 		font-size: 17px;
 	}
-
 	.benefits-images-text{
 		font-size: 12px;
 	}
 
+
+	/* Join the action - About page*/
 	#join-the-action-header{
 		font-size: 15px;
 	}
-
 	.join-the-action-text{
 		font-size: 10.5px;
 	}
 
+
+	/* Contact dominance fc - Contact page*/
 	#contact-dominance-fc-header{
 		font-size: 25px;
 	}
-
 	#contact-dominance-fc-text{
 		font-size: 18px;
 	}
-
 	.contact-input-fields{
 		font-size: 18px;
 	}
-
 	#contact-dominance-fc-button{
 		font-size: 20px;
 	}
 
+
+	/* Merch selection buttons - Merch page */
 	.merch-selection-buttons{
 		font-size: 12px;
 		white-space: nowrap;
 	}
-
 	.merch-header{
 		font-size: 18px;
 	}
-
 	.merch-price{
 		font-size: 14px;
 	}
@@ -738,187 +719,193 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 
 @media only screen and (min-width: 1024px){
+
+	/* Navbar */
 	.navbar-fontsize{
 		font-size: 15px;
 	}
 
+
+	/* Event card - Front page and Event page*/
 	#event-card-negative-margin{
 		margin-top: -150px;
 	}
 
+
+	/* Watch live card - Front page and Live tv page*/
 	#watch-live-header{
 		font-size: 50px;
 	}
-
 	#watch-live-underheader{
 		font-size: 30px;
 	}
-
 	.live-card-text{
 		font-size: 28px;
 	}
-
 	#live-card-pluto-tv{
 		font-size: 25px;
 	}
-
 	#watch-live-text{
 		font-size: 25px;
 		white-space: nowrap;
 	}
+	#live-card-pluto-tv-gray-text{
+		font-size: 20px;
+	}
 
+
+	/* Apply for our roster - Front page */
 	#apply-for-our-roster-header{
 		font-size: 30px;
 	}
-
 	.apply-for-our-roster-text{
 		font-size: 18px;
 
 	}
-
 	#sign-up-text{
 		font-size: 25px;
 		white-space: nowrap;
 	}
 
+
+	/* What is dominance fc - Front page and About page*/
 	#what-is-dominance-fc-header{
 		font-size: 30px;
 	}
-
 	.what-is-dominance-fc-text{
 		font-size: 20px;
 	}
-
 	.mark-o-madsen-ceo{
 		font-size: 20px;
 		white-space: nowrap;
 	}
-
 	#apostrophie{
 		font-size: 60px;
 	}
 
+
+	/* Event cards with information and pictures - Events page*/
 	.event-cards-information-text{
 		font-size: 16px;
 	}
 
+
+	/* Top image*/
 	.top-image-text{
 		font-size: 45px;
 	}
 
+
+	/* Become a dominance fc fighter - Figter sign up page*/
 	#become-a-dominance-fc-fighter-header{
 		font-size: 35px;
 	}
-
 	#become-a-dominance-fc-fighter-text{
 		font-size: 20px;
 	}
-
 	.fighter-sign-up-input-fields{
 		font-size: 15px;
 	}
-
 	#do-you-allow{
 		font-size: 13px;
 	}
-
 	.yes-no-permission{
 		font-size: 14px;
 	}
-
 	.fa-circle{
 		font-size: 14px;
 	}
-
 	#submit-me-as-a-fighter-button{
 		font-size: 17px;
 	}
+
 
 	/* Apply for our fighter roster - fighter sign up */
 	#apply-for-our-fighter-roster-header{
 		font-size: 22px;
 	}
-
 	.apply-for-our-fighter-roster-text{
 		font-size: 16px;
 	}
+
+
+	/* Footer*/
 	.email-subscribe{
 		font-size: 15px;
 	}
 
-	#live-card-pluto-tv-gray-text{
-		font-size: 20px;
-	}
 
+	/* Dominance fc partners - Partners page*/
 	#dominance-fc-partners-header{
 		font-size: 30px;
 	}
-
 	#dominance-fc-partners-text{
 		font-size: 25px;
 	}
-
 	.kbhallen-nordicmedia-text{
 		font-size: 20px;
 	}
 
+
+	/* What do we aim to achieve - About page*/
 	#what-do-we-aim-to-achieve-header{
 		font-size: 24px;
 	}
-
 	.what-do-we-aim-to-achieve-text{
 		font-size: 14.5px;
 	}
 
+
+	/* Airtox sponsorship - Sponsors page*/
 	.airtox-sponsership-text{
 		font-size: 14px;
 	}
 
+
+	/* Benefits of being a sponsor - Sponsors page*/
 	#benefits-header{
 		font-size: 30px;
 	}
-
 	.benefits-images-header{
 		font-size: 22px;
 	}
-
 	.benefits-images-text{
 		font-size: 15px;
 	}
 
+
+	/* Join the action - About page*/
 	#join-the-action-header{
 		font-size: 22px;
 	}
-
 	.join-the-action-text{
 		font-size: 14px;
 	}
 
+
+	/* Contact dominance fc - Contact page*/
 	#contact-dominance-fc-header{
 		font-size: 30px;
 	}
-
 	#contact-dominance-fc-text{
 		font-size: 23px;
 	}
-
 	.contact-input-fields{
 		font-size: 15px;
 	}
-
 	#contact-dominance-fc-button{
 		font-size: 20px;
 	}
 
+
+	/* Merch selection buttons - Merch page */
 	.merch-selection-buttons{
 		font-size: 17px;
 		white-space: nowrap;
 	}
-
 	.merch-header{
 		font-size: 23px;
 	}
-
 	.merch-price{
 		font-size: 19px;
 	}
@@ -926,222 +913,214 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 
 @media only screen and (min-width: 1440px){
+
+	/* Navbar */
 	.navbar-fontsize{
 		font-size: 19px;
 	}
 
+
+	/* Event card - Front page and Event page*/
 	#event-card-negative-margin{
 		margin-top: -200px;
 	}
-
 	#upcoming-events-header{
 		font-size: 40px;
 	}
-
 	.event-card-big-text{
 		font-size: 25px;
 	}
-
 	.event-card-text{
 		font-size: 22px;
 	}
-
 	#buy-tickets-text{
 		font-size: 25px;
 	}
 
+
+	/* Watch live card - Front page and Live tv page*/
 	#watch-live-header{
 		font-size: 60px;
 	}
-
 	#watch-live-underheader{
 		font-size: 50px;
 	}
-
 	.live-card-text{
 		font-size: 38px;
 	}
-
 	#live-card-pluto-tv-gray-text{
 		font-size: 25px;
 	}
-
 	#watch-live-text{
 		font-size: 45px;
 		white-space: nowrap;
 	}
 
+
+	/* Apply for our roster - Front page */
 	#apply-for-our-roster-header{
 		font-size: 40px;
 	}
-
 	.apply-for-our-roster-text{
 		font-size: 25px;
 
 	}
-
 	#sign-up-text{
 		font-size: 35px;
 		white-space: nowrap;
 	}
 
+
+	/* Footer */
 	#sign-up-for-newsletter-header{
 		font-size: 25px;
 	}
-
 	.footer-headers{
 		font-size: 23px;
 	}
-
 	.footer-text{
 		font-size: 21px;
 	}
-
 	.email-subscribe{
 		font-size: 20px;
 	}
 
+
+	/* What is dominance fc - Front page and About page*/
 	#what-is-dominance-fc-header{
 		font-size: 40px;
 	}
-
 	.what-is-dominance-fc-text{
 		font-size: 28px;
 	}
-
 	.mark-o-madsen-ceo{
 		font-size: 30px;
 		white-space: nowrap;
 	}
-
 	#apostrophie{
 		font-size: 80px;
 	}
 
+
+	/* Event cards with information and pictures - Events page*/
 	.event-cards-information-text{
 		font-size: 23px;
 	}
 
+
+	/* Top image*/
 	.top-image-text{
 		font-size: 65px;
 	}
+
+
 
 	/* Apply for our fighter roster - fighter sign up */
 	#apply-for-our-fighter-roster-header{
 		font-size: 35px;
 	}
-
 	.apply-for-our-fighter-roster-text{
 		font-size: 22.5px;
 	}
 
 
+	/* Become a dominance fc fighter - Figter sign up page*/
 	#become-a-dominance-fc-fighter-header{
 		font-size: 40px;
 	}
-
 	#become-a-dominance-fc-fighter-text{
 		font-size: 25px;
 	}
-
 	.fighter-sign-up-input-fields{
 		font-size: 20px;
 	}
-
 	#do-you-allow{
 		font-size: 18px;
 	}
-
 	.yes-no-permission{
 		font-size: 19px;
 	}
-
 	.fa-circle{
 		font-size: 19px;
 	}
-
 	#submit-me-as-a-fighter-button{
 		font-size: 22px;
 	}
 
+
+	/* Dominance fc partners - Partners page*/
 	#dominance-fc-partners-header{
 		font-size: 35px;
 	}
-
 	#dominance-fc-partners-text{
 		font-size: 30px;
 	}
-
 	.kbhallen-nordicmedia-text{
 		font-size: 25px;
 	}
 
+
+	/* What do we aim to achieve - About page*/
 	#what-do-we-aim-to-achieve-header{
 		font-size: 35px;
 	}
-
 	.what-do-we-aim-to-achieve-text{
 		font-size: 21.5px;
 	}
 
+
+	/* Airtox sponsorship - Sponsors page*/
 	.airtox-sponsership-text{
 		font-size: 21.5px;
 	}
 
+
+	/* Benefits of being a sponsor - Sponsors page*/
 	#benefits-header{
 		font-size: 35px;
 	}
-
 	.benefits-images-header{
 		font-size: 27px;
 	}
-
 	.benefits-images-text{
 		font-size: 20px;
 	}
 
+
+	/* Join the action - About page*/
 	#join-the-action-header{
 		font-size: 30px;
 	}
-
 	.join-the-action-text{
 		font-size: 20px;
 	}
 
+
+	/* Contact dominance fc - Contact page*/
 	#contact-dominance-fc-header{
 		font-size: 40px;
 	}
-
 	#contact-dominance-fc-text{
 		font-size: 30px;
 	}
-
 	.contact-input-fields{
 		font-size: 38px;
 	}
-
 	#contact-dominance-fc-button{
 		font-size: 40px;
 	}
 
+
+	/* Merch selection buttons - Merch page */
 	.merch-selection-buttons{
 		font-size: 25px;
 		white-space: nowrap;
 	}
-
 	.merch-header{
 		font-size: 33px;
 	}
-
 	.merch-price{
 		font-size: 29px;
-	}
-
-}
-
-@media only screen and (min-width: 2560px){
-	.navbar-fontsize{
-		font-size: 39px;
 	}
 
 }
