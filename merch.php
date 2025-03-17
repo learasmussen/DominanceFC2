@@ -42,22 +42,34 @@ require "settings/init.php";
 <div class="container-fluid px-2 py-3 py-lg-5">
     <div class="row gx-3">
         <div class="col-2 pe-1 pe-md-2">
-            <button class="btn btn-orange w-100 rounded-0 gx-1 font-overtext p-0 py-1 text-center text-uppercase merch-selection-buttons text-white">T-Shirts</button>
+            <button class="btn btn-orange w-100 rounded-0 gx-1 font-overtext p-0 py-1 text-center text-uppercase merch-selection-buttons text-white">
+                T-Shirts
+            </button>
         </div>
         <div class="col-2 px-1 px-md-2">
-            <button class="btn btn-orange w-100 rounded-0 gx-1 font-overtext p-0 py-1 text-center text-uppercase merch-selection-buttons text-white">Hoodies</button>
+            <button class="btn btn-orange w-100 rounded-0 gx-1 font-overtext p-0 py-1 text-center text-uppercase merch-selection-buttons text-white">
+                Hoodies
+            </button>
         </div>
         <div class="col-2 px-1 px-md-2">
-            <button class="btn btn-orange w-100 rounded-0 gx-1 font-overtext p-0 py-1 text-center text-uppercase merch-selection-buttons text-white">Pants</button>
+            <button class="btn btn-orange w-100 rounded-0 gx-1 font-overtext p-0 py-1 text-center text-uppercase merch-selection-buttons text-white">
+                Pants
+            </button>
         </div>
         <div class="col-2 px-1 px-md-2">
-            <button class="btn btn-orange w-100 rounded-0 gx-1 font-overtext p-0 py-1 text-center text-uppercase merch-selection-buttons text-white">Gloves</button>
+            <button class="btn btn-orange w-100 rounded-0 gx-1 font-overtext p-0 py-1 text-center text-uppercase merch-selection-buttons text-white">
+                Gloves
+            </button>
         </div>
         <div class="col-2 px-1 px-md-2">
-            <button class="btn btn-orange w-100 rounded-0 gx-1 font-overtext p-0 py-1 text-center text-uppercase merch-selection-buttons text-white">Bottles</button>
+            <button class="btn btn-orange w-100 rounded-0 gx-1 font-overtext p-0 py-1 text-center text-uppercase merch-selection-buttons text-white">
+                Bottles
+            </button>
         </div>
         <div class="col-2 ps-1 ps-md-2">
-            <button class="btn btn-orange w-100 rounded-0 gx-1 font-overtext p-0 py-1 text-center text-uppercase merch-selection-buttons text-white">Pads</button>
+            <button class="btn btn-orange w-100 rounded-0 gx-1 font-overtext p-0 py-1 text-center text-uppercase merch-selection-buttons text-white">
+                Pads
+            </button>
         </div>
     </div>
 </div>

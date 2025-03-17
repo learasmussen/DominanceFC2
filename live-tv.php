@@ -59,7 +59,8 @@ require "settings/init.php";
 
             <div class="text-white live-card-text mb-1 mb-md-3">WATCH THE FIGHTERS LIVE HERE ON APRIL 26</div>
             <div class="text-white live-card-text mb-1 mb-md-3">OR BUY A TICKET FOR THE MAIN EVENT ON APRIL 26</div>
-            <p class="text-light-gray mb-1 mb-md-2 mb-lg-4" id="live-card-pluto-tv-gray-text">THE LIVE TV IS DELIVERD TO YOU BY PLUTO TV</p>
+            <p class="text-light-gray mb-1 mb-md-2 mb-lg-4" id="live-card-pluto-tv-gray-text">THE LIVE TV IS DELIVERD TO
+                YOU BY PLUTO TV</p>
 
             <!-- Button Section -->
             <div class="col-md-4 text-md-end text-center d-flex align-items-center justify-content-start">
