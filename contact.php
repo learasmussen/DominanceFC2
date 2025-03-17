@@ -15,7 +15,7 @@ require "settings/init.php";
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
-    <link rel="icon" href="images/icon.png" type="image/png">
+    <link rel="icon" href="images/fav-icon.png" type="image/png">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/4e7ccd0dde.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
