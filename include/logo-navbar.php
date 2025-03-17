@@ -2,7 +2,7 @@
 <div class="container logo ps-2 py-2 m-md-0">
     <div class="row">
         <div>
-            <a href="/index.php"><img src="../images/long-logo.png" alt="long-logo" class="col-4 col-md-2"></a>
+            <a href="/index.php"><img src="images/long-logo.png" alt="long-logo" class="col-4 col-md-2"></a>
         </div>
     </div>
 </div>
@@ -12,17 +12,17 @@
     <nav class="navbar container bg-black m-0 font-overtext">
         <div class="navbar-nav d-flex flex-row justify-content-evenly w-100">
             <div class="nav-item">
-                <a class="nav-link text-white navbar-fontsize-mobil" href="../event.php">EVENT</a>
+                <a class="nav-link text-white navbar-fontsize-mobil" href="event.php">EVENT</a>
             </div>
             <div class="nav-item">
-                <a class="nav-link text-white navbar-fontsize-mobil" href="../fighter-sign-up.php">SIGN UP</a>
+                <a class="nav-link text-white navbar-fontsize-mobil" href="fighter-sign-up.php">SIGN UP</a>
             </div>
             <div class="nav-item">
-                <a class="nav-link text-white navbar-fontsize-mobil" href="../live-tv.php">LIVE TV <i
+                <a class="nav-link text-white navbar-fontsize-mobil" href="live-tv.php">LIVE TV <i
                             class="fa-solid fa-circle text-orange "></i></a>
             </div>
             <div class="nav-item">
-                <a class="nav-link text-white navbar-fontsize-mobil" href="../merch.php">MERCH</a>
+                <a class="nav-link text-white navbar-fontsize-mobil" href="merch.php">MERCH</a>
             </div>
             <div class="nav-item">
                 <a class="nav-link text-white navbar-fontsize-mobil" href="#" id="otherDropdown">OTHER <i
@@ -45,10 +45,10 @@
                 <!-- Menu Items -->
                 <div class="text-center font-overtext">
                     <div class="d-flex flex-column gap-3 fs-3 fw-bold text-uppercase mt-n3">
-                        <a href="../sponsors.php" class="text-white text-decoration-none">SPONSORS</a>
-                        <a href="../partners.php" class="text-white text-decoration-none">PARTNERS</a>
-                        <a href="../about.php" class="text-white text-decoration-none">ABOUT</a>
-                        <a href="../contact.php" class="text-white text-decoration-none">CONTACT</a>
+                        <a href="sponsors.php" class="text-white text-decoration-none">SPONSORS</a>
+                        <a href="partners.php" class="text-white text-decoration-none">PARTNERS</a>
+                        <a href="about.php" class="text-white text-decoration-none">ABOUT</a>
+                        <a href="contact.php" class="text-white text-decoration-none">CONTACT</a>
                     </div>
                 </div>
             </div>
@@ -60,29 +60,29 @@
 <nav class="navbar container-fluid bg-black d-none d-md-block">
     <div class="navbar-nav d-flex flex-row justify-content-evenly w-100 font-overtext">
         <div class="nav-item">
-            <a class="nav-link text-white navbar-fontsize" href="../event.php">EVENT</a>
+            <a class="nav-link text-white navbar-fontsize" href="event.php">EVENT</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link text-white navbar-fontsize" href="../fighter-sign-up.php">FIGHTER SIGN UP</a>
+            <a class="nav-link text-white navbar-fontsize" href="fighter-sign-up.php">FIGHTER SIGN UP</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link text-white navbar-fontsize" href="../sponsors.php">SPONSORS</a>
+            <a class="nav-link text-white navbar-fontsize" href="sponsors.php">SPONSORS</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link text-white navbar-fontsize" href="../partners.php">PARTNERS</a>
+            <a class="nav-link text-white navbar-fontsize" href="partners.php">PARTNERS</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link text-white navbar-fontsize" href="../about.php">ABOUT</a>
+            <a class="nav-link text-white navbar-fontsize" href="about.php">ABOUT</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link text-white navbar-fontsize" href="../merch.php">MERCH</a>
+            <a class="nav-link text-white navbar-fontsize" href="merch.php">MERCH</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link text-white navbar-fontsize" href="../live-tv.php">LIVE TV <i
+            <a class="nav-link text-white navbar-fontsize" href="live-tv.php">LIVE TV <i
                         class="fa-solid fa-circle text-orange "></i></a>
         </div>
         <div class="nav-item">
-            <a class="nav-link text-white navbar-fontsize" href="../contact.php">CONTACT</a>
+            <a class="nav-link text-white navbar-fontsize" href="contact.php">CONTACT</a>
         </div>
     </div>
 </nav>
