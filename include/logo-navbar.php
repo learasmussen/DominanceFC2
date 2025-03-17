@@ -2,7 +2,7 @@
 <div class="container logo ps-2 py-2 m-md-0">
     <div class="row">
         <div>
-            <a href="/index.php"><img src="images/long-logo.png" alt="long-logo" class="col-4 col-md-2"></a>
+            <a href="index.php"><img src="images/long-logo.png" alt="long-logo" class="col-4 col-md-2"></a>
         </div>
     </div>
 </div>
