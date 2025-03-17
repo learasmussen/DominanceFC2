@@ -15,7 +15,7 @@ require "settings/init.php";
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
-
+    <link rel="icon" href="images/icon.png" type="image/png">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/4e7ccd0dde.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -167,7 +167,7 @@ require "settings/init.php";
 
             <div class="text-orange fw-bold mt-2 font-overtext" id="merch-header">MERCH</div>
             <p class="merch-text text-white mb-2 font-text">View our new collection of MMA inspired merchandice such as T-Shirts</p>
-            <p class="merch-text text-white mb-2 font-text">Furthermore we also offer MMA training equipment such as gloves and boxing pads</p>
+            <p class="merch-text text-white mb-2 font-text">Furthermore, we also offer MMA training equipment such as gloves and boxing pads</p>
 
             <!-- Button Section -->
             <div class="col-md-4 text-md-end text-center d-flex align-items-center justify-content-start">
