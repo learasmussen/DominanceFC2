@@ -58,7 +58,7 @@ require "settings/init.php";
 
                     <!-- Button Section -->
                     <div class="col-md-4 text-md-end text-center d-flex align-items-center justify-content-end ps-3 me-md-5">
-                        <a href="#"
+                        <a href="event.php"
                            class="btn btn-orange rounded-0 text-uppercase text-white font-overtext fw-bold px-3 py-2 m-0 px-md-4 py-md-3 px-lg-5 py-lg-4"
                            id="buy-tickets-text">Buy Tickets</a>
                     </div>
@@ -150,7 +150,7 @@ require "settings/init.php";
 
             <!-- Button Section -->
             <div class="col-md-4 text-md-end text-center d-flex align-items-center justify-content-start">
-                <a href="#"
+                <a href="fighter-sign-up.php"
                    class="btn btn-orange rounded-0 text-uppercase text-white fw-bold px-2 py-1 m-0 mb-2 px-md-4 py-md-3 px-lg-5 py-lg-4 font-overtext"
                    id="sign-up-text">SIGN UP</a>
             </div>
